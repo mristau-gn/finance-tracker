@@ -46,6 +46,5 @@ group :development do
 end
 
 group :production do
-  gem 'pg' # Postgres
   gem 'rails_12factor' # Heroku
 end
